@@ -1,35 +1,23 @@
+
+let circleSize;
+let randomWeight;
+
 function setup() {
-  createCanvas(innerWidth, innerHeight);
-  background(34, 39, 46);
+    createCanvas(innerWidth, innerHeight);
+    
 }
 
 function draw() {
-  background(34, 39, 46, 40);
-  noStroke();
-  fill(108, 182, 255);
-
+  background(0);
   push();
-  translate(width / 2, height / 2);
-
-  push();
-  rotate(frameCount / 8);
-  ellipse(25, 0, 50);
+  
+  circleSize = random(5,50);
+  randomWeight = random(1,5);
+  
+  strokeWeight(randomWeight);
+  stroke(255);
+  fill(255);
+  circle(50, 200,circleSize);
   pop();
-
-  push();
-  rotate(-frameCount / 10);
-  ellipse(75, 0, 50);
-  pop();
-
-  push();
-  rotate(frameCount / 12);
-  ellipse(125, 0, 50);
-  pop();
-
-  push();
-  rotate(-frameCount / 14);
-  ellipse(175, 0, 50);
-  pop();
-
-  pop();
+    
 }
