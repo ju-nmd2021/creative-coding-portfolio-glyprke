@@ -22,7 +22,7 @@ function draw() {
   // inspired by https://www.youtube.com/watch?v=Efnl8kPL6Kw
   for (let i = 0; i < lineAmount; i ++){
     line(0, 0, 0, size/2);
-    rotate(360 /10);
+    rotate(360 /8);
   }
   pop();
       
