@@ -1,27 +1,15 @@
 let size= 250;
 let lineAmount = 150;
 let xPosition = 0;
-let yPosition = 0;
-
-
+let yPosition = 100;
 
 function setup() {
-  createCanvas(500,500);
+  createCanvas(1000, 1000);
 }
-
-function draw() {
-  
-  for (let i = 0; i < 10; i++){
-      xPosition = xPosition + 100
-      shape()
-  }
-      
-}
-
 function shape(){
   
   // random colors of the ellipse
-  //fill(random(255), random(150), random(165));
+  fill(random(255), random(150), random(165));
   ellipse(xPosition, yPosition,size,size);
   fill(255);
   push();
@@ -35,4 +23,14 @@ function shape(){
     rotate(360 /8);
   }
   pop();
+}
+
+
+
+function draw() {
+  
+  for (let i = 0; i < 10; i++){
+      xPosition = xPosition + 100
+      shape()
+  }  
 }
