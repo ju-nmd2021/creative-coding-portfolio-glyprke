@@ -21,7 +21,7 @@ function shape(){
   //lines inside of the ellipse
   translate(xPosition, yPosition);
   
-  // inspired by https://www.youtube.com/watch?v=Efnl8kPL6Kw
+  // line 26 & 27 inspired by https://www.youtube.com/watch?v=Efnl8kPL6Kw
   for (let i = 0; i < lineAmount; i ++){
     line(0, 0, 0, size/2);
     rotate(360 /8);
