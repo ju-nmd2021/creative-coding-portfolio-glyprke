@@ -22,15 +22,18 @@ function shape(){
     line(0, 0, 0, size/2);
     rotate(360 /8);
   }
+
   pop();
 }
-
-
 
 function draw() {
   
   for (let i = 0; i < 10; i++){
       xPosition = xPosition + 100
-      shape()
+    for (let k = 0; k < 10; k++){
+       shape()
+       yPosition = yPosition + 100
+    }   
+    yPosition =100;
   }  
 }
