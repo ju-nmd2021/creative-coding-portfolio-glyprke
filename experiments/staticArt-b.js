@@ -1,4 +1,4 @@
-// inspired by 
+// inspired by https://codepen.io/pixelkind/pen/wvRMVwy
 
 function setup() {
     createCanvas(innerWidth, innerHeight);
