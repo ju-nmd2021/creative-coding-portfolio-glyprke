@@ -8,13 +8,13 @@ let inc = 5;
 // acceleration and velocity inspired by https://www.youtube.com/watch?v=i2ROE_mAhU0
 
 function setup() {
-  createCanvas(400, 400);
+  createCanvas(innerWidth, innerHeight);
   angleMode(RADIANS);
 }
 
 function r1(){
 
-  translate(200,200);
+  translate(innerWidth/2, innerHeight/2);
   rotate(angle);
   let div = 5;
   
