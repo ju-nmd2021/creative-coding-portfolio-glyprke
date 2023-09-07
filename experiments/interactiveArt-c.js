@@ -10,11 +10,11 @@ function setup() {
   angleMode(RADIANS);
 }
 
-function r1(){
-  noStroke();
-  translate(innerWidth/2, innerHeight/2);
-  rotate(angle);
+function r1(x, y){
   push();
+  noStroke();
+  translate(x, y);
+  rotate(angle);
     angleMode(RADIANS);
     for (let i = 0; i < 10; i ++) {
       fill(200, 205, 200, 100);
@@ -29,5 +29,7 @@ function r1(){
 function draw() {
   
   background(255);
-    r1();
+  
+    r1(100, 100);
+    r1(200,200)
 }
