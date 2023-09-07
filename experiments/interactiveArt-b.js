@@ -21,7 +21,7 @@ function r1(){
   for( let k=0; k < 2; k ++){
     push();
       angleMode(RADIANS);
-      for (let i = 0; i < 10; i ++) {
+      for (let i = 0; i < width; i ++) {
         fill(200, 205, 200, 100);
         ellipse(0, 0, size, 175);
         rotate(PI / 3 );
@@ -30,6 +30,11 @@ function r1(){
   } 
 
   size = size - inc;
+  if ( size < -400){
+    inc = -5;
+  } else if (size > 400){
+    inc = 5;
+  }
   angle += velocity;
   velocity += acceleration;
 }
