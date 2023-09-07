@@ -13,7 +13,7 @@ function bBackground(){
     for (let y = 0; y < innerHeight; y++) {
       const value = noise(x * divider , y * divider) * 300;
 
-// I was looking for ways to change color of the project. Chatgpt suggested me to change color by using map function to change the color. To understand how map function works i checked the reference page. Line 16 & 17 inspired by https://p5js.org/reference/#/p5/map line & Chatgpt
+// I was looking for ways to change color of the project. Chatgpt suggested me to change color by using map function. To understand how map function works i checked the reference page. Line 17 & 18 inspired by https://p5js.org/reference/#/p5/map line & Chatgpt
       const g = map(value, 0, 255, 40, 255);
       const b = map(value, 0, 255, 200, 255);
       
