@@ -1,4 +1,4 @@
-// inspired by https://codepen.io/pixelkind/details/abPdggb
+// all lines inspired by https://codepen.io/pixelkind/details/abPdggb then i made changes
 
 const size = 10;
 const gap = 7;

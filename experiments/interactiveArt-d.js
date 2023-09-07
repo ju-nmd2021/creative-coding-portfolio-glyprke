@@ -1,3 +1,5 @@
+// all lines inspired by https://editor.p5js.org/codingtrain/sketches/EZeHXBhei then i made changes
+
 let inc = 0.010;
 let start = 0.01;
 
@@ -5,8 +7,6 @@ let start = 0.01;
 function setup() {
   createCanvas(innerWidth, innerHeight);
 }
-
-// inspired by https://editor.p5js.org/codingtrain/sketches/EZeHXBhei
 
 function draw() {
   background(50);
