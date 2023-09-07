@@ -1,7 +1,7 @@
 // Perlin Noise inspired by https://codepen.io/pixelkind/pen/wvRMVwy
 
 function setup() {
-  createCanvas(400, 400);
+  createCanvas(250, 250);
   frameRate(60);
 }
 
