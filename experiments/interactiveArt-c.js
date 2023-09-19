@@ -1,6 +1,7 @@
 let angle = 0;
 let velocity = 0;
 let acceleration = 0.01;
+let gap = 100;
 
 
 // acceleration and velocity inspired by https://www.youtube.com/watch?v=i2ROE_mAhU0 then i made changes
@@ -18,7 +19,7 @@ function r1(x, y){
     angleMode(RADIANS);
     for (let i = 0; i < 10; i ++) {
       fill(200, 205, 200, 100);
-      ellipse(0,0 , 200, 100);
+      ellipse(0,0, 200, 100);
       rotate(PI / 3 );
     }
   pop();
@@ -30,14 +31,10 @@ function draw() {
   
   background(255);
   
-    r1(100, 100);
-    r1(200,200)
+  for( let x=0; x < innerWidth; x += 250){
+    for (let y= 0; y < innerHeight; y += 250){
+      r1(x, y);
+    }
+  }
 
-    //for (let x = 0; x < 100; x++){
-    //  x = x + 100;
-    //for (let y = 0; y < 100; y++){
-    //  y = y + 100;
-    // }   
-   // y =100;
-  //}  
 }
