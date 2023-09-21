@@ -52,21 +52,21 @@
     "file": "experiments/sound.js",
     "name": "Talkative lines",
     "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview.",
-    "background": "Positions the work in a context by presenting related work and introducing aesthetic or scientific theories related to the work.",
+    "background": "I got inspired by Garrits example then I added royalty free mp3 music to the project from from Pixabay.",
     "github": "https://www.github.com/pixelkind"
   },
   {
     "file": "experiments/sound-b.js",
     "name": "Music is not liked by circles",
-    "description": "The purpose of the project was to add sound to the art project. In order to accomplish that, I got inspired by the Talkative Lines project. My first step was to add a delay to the sound and then use a for loop to create multiple ellipses. My final step was to change the colors using the map function. The ellipses move according to the music.",
-    "background": "Positions the work in a context by presenting related work and introducing aesthetic or scientific theories related to the work.",
+    "description": "Based on the project called sound.js I added feedback delay to the sound. My next step was to change the shape to an ellipse. I created more ellipses using the loop function. With the help of the map function, I changed the colours of it.",
+    "background": "I got inspired by Garrits example then I added royalty free mp3 music to the project from from Pixabay.",
     "github": "https://www.github.com/pixelkind"
   },
   {
     "file": "experiments/aesthetic.js",
     "name": "Marks behind circles",
-    "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview.",
-    "background": "Positions the work in a context by presenting related work and introducing aesthetic or scientific theories related to the work.",
+    "description": "The purpose of this project was to revisit the previous projects from our last three labs. In order to accomplish this, I chose an interactive project that I had previously made. Since I did not play with its colour before, I decided to start with changing it. I accidentally made some mistakes in the code and it ended up looking nice. My next step was to increase the acceleration and decrease the size of it. As a final step, I changed the stroke colour and applied the scale function to make this shape much larger.",
+    "background": "This project is inspired by my old project called Circle to flower. Later, I added color theory to the project in order to make changes to the ellipse and its stroke. On this project, I used the law of similarity from the Gestalt principles.",
     "github": "https://www.github.com/pixelkind"
   },
   {
