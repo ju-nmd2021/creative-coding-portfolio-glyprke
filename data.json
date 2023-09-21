@@ -15,7 +15,7 @@
   },
   {
     "file": "experiments/interactiveArt-b.js",
-    "name": "Cirle to flower",
+    "name": "Circle to flower",
     "description": "As part of this project, I wanted to create an interactive art piece, but I also wanted to learn more about how angular motion works. Therefore, I began watching a video series by Daniel Shiffman called Nature of Code. In his video, he created a rectangle and explained acceleration and velocity. I created a new shape using ellipses and made it look like a flower to understand it on my own. After that, I applied the same steps as in the video and played around with the numbers to make the shape move faster and increase its size. I used if blocks to decrease the size of the shape after one point since it was growing every time.",
     "background": "My initial idea was to draw a flower shape and rotate it, but I had some questions about how to do so. Upon watching a tutorial by Daniel Shiffman, I got inspired and decided to rotate the flowers using his instructions. Therefore, this artwork represents a combination of two ideas.",
     "github": "https://www.github.com/pixelkind"
@@ -23,13 +23,13 @@
   {
     "file": "experiments/interactiveArt-c.js",
     "name": "Shaky shaky",
-    "description": "After watching Daniel Shiffman's tutorial, I became more interested in how angular motion works. This is why I played around with my old project called XX and tried to create different versions. In the end, I made the shapes smaller and used for loops to create more shapes.",
+    "description": "After watching Daniel Shiffman's tutorial, I became more interested in how angular motion works. This is why I played around with my old project called Circle to flower and tried to create different versions. In the end, I made the shapes smaller and used for loops to create more shapes.",
     "background": "I got inspired by Daniel Shiffman while adding movement to the shape. In order to make them more appealing, I wanted to place the shapes symmetrically to full screen.",
     "github": "https://www.github.com/pixelkind"
   },
   {
     "file": "experiments/interactiveArt-d.js",
-    "name": "Radiation on space",
+    "name": "Radiation in space",
     "description": "I used Perlin noise function in order to create an interactive art project for the assignment. Watching Daniel Shiffman's tutorial helped me understand how Perlin Noise gives different values over time. I followed his tutorial at first, but then got creative and created my own version based on his example. The project was completely reworked after I switched from vertex to line, instead of using vertex. I then adjusted the stroke amount and position of the lines.",
     "background": "By making small changes to Daniel Shiffman's tutorial, I created this interactive art piece. As part of this project, I wanted to use the gestalt principle of proximity since when objects and elements are arranged together, they appear to have a relationship.",
     "github": "https://www.github.com/pixelkind"
@@ -37,15 +37,15 @@
   {
     "file": "experiments/interactiveArt-e.js",
     "name": "A cloudy day in Jonkoping",
-    "description": "The goal of this project was to create an interactive art piece while learning how to use Perlin Noise. My first step was to look at examples provided during the lecture in order to gain a better understanding of that. The first thing I did was play around with the numbers in the javascript file and see what effect they had on the project. By increasing the noise seed, I was able to create a project that looks like the sky. Because of that, I decided to use shades of blue in the design. As there were a variety of options at that time, I was not sure which function I should use to change the colours. Therefore, I asked chatgpt for some examples I can use. From there, I used the map function to create sky-like blue colours. In the final step, I multiplied frame count by 0.05 in order to move the sky.",
+    "description": "The goal of this project was to create an interactive art piece while learning how to use Perlin Noise. My first step was to look at the examples provided during the lecture in order to gain a better understanding of that. The first thing I did was play around with the numbers in the javascript file and see what effect they had on the project. By increasing the noise seed, I was able to create a project that looked like the sky. Because of that, I decided to use shades of blue in the design. As there were a variety of options at that time, I was not sure which function I should use to change the colours. Therefore, I asked chatgpt for some examples I could use. From there, I used the map function to create sky-like blue colours. In the final step, I multiplied the frame count by 0.05 to move the sky.",
     "background": "I got inspired from Garrits' example and Gorilla Sun's Perlin Noise tutorial to create a pattern that looks like sky using Perlin Noise. The blue color is often associated with the sky, so I chose shades of blue for this project.",
     "github": "https://www.github.com/pixelkind"
   },
   {
     "file": "experiments/interactiveArt-f.js",
     "name": "Click and rotate",
-    "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview.",
-    "background": "Positions the work in a context by presenting related work and introducing aesthetic or scientific theories related to the work.",
+    "description": "The purpose of the project was to create an interactive art piece. In order to accomplish this, I wanted to use particle systems. Using Garrits example as a starting point, I changed the ellipse into rectangles. My next step was to change the colors of the rectangles by using a random function. I increased the frequency of the rectangles at the end.",
+    "background": "My inspiration came from Garrits' particle example, then I applied color theory to it and adjusted it.",
     "github": "https://www.github.com/pixelkind"
   },
   {
@@ -58,7 +58,7 @@
   {
     "file": "experiments/sound-b.js",
     "name": "Music is not liked by circles",
-    "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview.",
+    "description": "The purpose of the project was to add sound to the art project. In order to accomplish that, I got inspired by the Talkative Lines project. My first step was to add a delay to the sound and then use a for loop to create multiple ellipses. My final step was to change the colors using the map function. The ellipses move according to the music.",
     "background": "Positions the work in a context by presenting related work and introducing aesthetic or scientific theories related to the work.",
     "github": "https://www.github.com/pixelkind"
   },
