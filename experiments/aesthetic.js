@@ -1,6 +1,6 @@
 let angle = 0;
 let velocity = 0;
-let acceleration = 0.005;
+let acceleration = 0.010;
 let size = 4;
 let inc = 3;
 let blurEffect= 0;
@@ -18,12 +18,13 @@ function r1(){
   translate(innerWidth/2, innerHeight/2);
   rotate(angle);
   let div = 5;
-  
+  scale(1.5);
   for( let k=0; k < 2; k ++){
     push();
       angleMode(RADIANS);
+      stroke(random(50, 230), random(200, 255), 255);
       for (let i = 0; i < width; i ++) {
-        fill(random(50, 230), random(152, 255), random(202, 255), blurEffect);
+        fill(random(75, 230), random(70, 255), random(202, 255), blurEffect);
         ellipse(0, 0, size, 175);
         rotate(PI / 3 );
       }
@@ -45,5 +46,4 @@ function r1(){
 function draw() {
 
   r1();
-  
 }
