@@ -10,7 +10,7 @@ let analyser;
 let delay;
 
 window.addEventListener("load", () => {
-  player = new Tone.Player("summer-walk.mp3");
+  player = new Tone.Player("experiments/summer.mp3");
   analyser = new Tone.Analyser("fft", 4096);
   delay = new Tone.FeedbackDelay("8n", 0.2);
 

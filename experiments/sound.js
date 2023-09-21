@@ -6,7 +6,7 @@ let player;
 let analyser;
 
 window.addEventListener("load", () => {
-  player = new Tone.Player("experiment/summer.mp3");
+  player = new Tone.Player("experiments/summer.mp3");
 
   analyser = new Tone.Analyser("fft", 4096);
 
