@@ -1,77 +1,77 @@
 [
   {
     "file": "experiments/staticArt-a.js",
-    "name": "Name of your experiment",
+    "name": "Circle fans",
     "description": "The aim of the assignment was to create static generative art. In order to achieve this, I wanted to use randomness and repetition. I started by creating an ellipse and playing around with it. Then I created lines that were half the size of the ellipse. After that I used rotation and made 8 equal pieces using lines. I wanted to change the color of the balls every time the page was refreshed using the random function. I used a for loop and applied this shape through the page. ",
     "background": "I came up with this idea while watching a Matthew Epler video about P5.js. In his tutorial, he created an ellipse and created lines and repeated them. It turned out that I wrote the wrong number, but I really like the shape with more lines.Afterwards, I wanted to repeat the shape, and I really like how it turned out. The last thing I wanted to do was to change the color, so I used a random function to pick the colors",
     "github": "https://www.github.com/pixelkind"
   }, 
   {
     "file": "experiments/interactiveArt-a.js",
-    "name": "a",
+    "name": "Candy shop",
     "description": "My purpose was to create an interactive art project, and I started by looking for examples that might inspire me. As I wentthrough the examples Garrit showed us during the lecture, I found an example called Grid. In order to understand how it works, I started playing around and changed rectangles to ellipses. In my version, I increased the number of shapes to 100, reduced the gap between shapes to 7 and reduced the size of the shapes to 10. By using math random function, I was able to change the colors randomly in redish colors to make it interactive.",
     "background": "I came up with this idea while looking for examples Garrit provided during the lecture. Instead of rectangles, I used small ellipses to increase the number of shapes in the example. It happened spontaneously since I didn't plan to make something like that.",
     "github": "https://www.github.com/pixelkind"
   },
   {
     "file": "experiments/interactiveArt-b.js",
-    "name": "b",
+    "name": "Cirle to flower",
     "description": "As part of this project, I wanted to create an interactive art piece, but I also wanted to learn more about how angular motion works. Therefore, I began watching a video series by Daniel Shiffman called Nature of Code. In his video, he created a rectangle and explained acceleration and velocity. I created a new shape using ellipses and made it look like a flower to understand it on my own. After that, I applied the same steps as in the video and played around with the numbers to make the shape move faster and increase its size. I used if blocks to decrease the size of the shape after one point since it was growing every time.",
     "background": "My initial idea was to draw a flower shape and rotate it, but I had some questions about how to do so. Upon watching a tutorial by Daniel Shiffman, I got inspired and decided to rotate the flowers using his instructions. Therefore, this artwork represents a combination of two ideas.",
     "github": "https://www.github.com/pixelkind"
   },
   {
     "file": "experiments/interactiveArt-c.js",
-    "name": "c",
+    "name": "Shaky shaky",
     "description": "After watching Daniel Shiffman's tutorial, I became more interested in how angular motion works. This is why I played around with my old project called XX and tried to create different versions. In the end, I made the shapes smaller and used for loops to create more shapes.",
     "background": "I got inspired by Daniel Shiffman while adding movement to the shape. In order to make them more appealing, I wanted to place the shapes symmetrically to full screen.",
     "github": "https://www.github.com/pixelkind"
   },
   {
     "file": "experiments/interactiveArt-d.js",
-    "name": "d",
+    "name": "Radiation on space",
     "description": "I used Perlin noise function in order to create an interactive art project for the assignment. Watching Daniel Shiffman's tutorial helped me understand how Perlin Noise gives different values over time. I followed his tutorial at first, but then got creative and created my own version based on his example. The project was completely reworked after I switched from vertex to line, instead of using vertex. I then adjusted the stroke amount and position of the lines.",
     "background": "By making small changes to Daniel Shiffman's tutorial, I created this interactive art piece. As part of this project, I wanted to use the gestalt principle of proximity since when objects and elements are arranged together, they appear to have a relationship.",
     "github": "https://www.github.com/pixelkind"
   },
   {
     "file": "experiments/interactiveArt-e.js",
-    "name": "e",
+    "name": "A cloudy day in Jonkoping",
     "description": "The goal of this project was to create an interactive art piece while learning how to use Perlin Noise. My first step was to look at examples provided during the lecture in order to gain a better understanding of that. The first thing I did was play around with the numbers in the javascript file and see what effect they had on the project. By increasing the noise seed, I was able to create a project that looks like the sky. Because of that, I decided to use shades of blue in the design. As there were a variety of options at that time, I was not sure which function I should use to change the colours. Therefore, I asked chatgpt for some examples I can use. From there, I used the map function to create sky-like blue colours. In the final step, I multiplied frame count by 0.05 in order to move the sky.",
     "background": "I got inspired from Garrits' example and Gorilla Sun's Perlin Noise tutorial to create a pattern that looks like sky using Perlin Noise. The blue color is often associated with the sky, so I chose shades of blue for this project.",
     "github": "https://www.github.com/pixelkind"
   },
   {
     "file": "experiments/interactiveArt-f.js",
-    "name": "f",
+    "name": "Click and rotate",
     "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview.",
     "background": "Positions the work in a context by presenting related work and introducing aesthetic or scientific theories related to the work.",
     "github": "https://www.github.com/pixelkind"
   },
   {
     "file": "experiments/sound.js",
-    "name": "sound1",
+    "name": "Talkative lines",
     "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview.",
     "background": "Positions the work in a context by presenting related work and introducing aesthetic or scientific theories related to the work.",
     "github": "https://www.github.com/pixelkind"
   },
   {
     "file": "experiments/sound-b.js",
-    "name": "sound2",
+    "name": "Music is not liked by circles",
     "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview.",
     "background": "Positions the work in a context by presenting related work and introducing aesthetic or scientific theories related to the work.",
     "github": "https://www.github.com/pixelkind"
   },
   {
     "file": "experiments/aesthetic.js",
-    "name": "aesthetic",
+    "name": "Marks behind circles",
     "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview.",
     "background": "Positions the work in a context by presenting related work and introducing aesthetic or scientific theories related to the work.",
     "github": "https://www.github.com/pixelkind"
   },
   {
     "file": "experiments/aesthetic-b.js",
-    "name": "aesthetic-b",
+    "name": "Bloody particles",
     "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview.",
     "background": "Positions the work in a context by presenting related work and introducing aesthetic or scientific theories related to the work.",
     "github": "https://www.github.com/pixelkind"
