@@ -51,7 +51,7 @@
   {
     "file": "experiments/sound.js",
     "name": "Talkative lines",
-    "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview.",
+    "description": "The aim of the project was to add a sound. To understand how it works i used one of the Garrit's example and added a royalty free music to that.",
     "background": "I got inspired by Garrits example then I added royalty free mp3 music to the project from from Pixabay.",
     "github": "https://www.github.com/pixelkind"
   },
@@ -72,8 +72,8 @@
   {
     "file": "experiments/aesthetic-b.js",
     "name": "Bloody particles",
-    "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview.",
-    "background": "Positions the work in a context by presenting related work and introducing aesthetic or scientific theories related to the work.",
+    "description": "The aim of the project was to revisit our previous project from the last three labs. To achieve this I chose an interactive project that I have already completed. Previously, particles were created when the mouse was clicked, but now I want particles to be created based on the mouse position. For this project, I wanted particles to create ellipses rather than rectangles. The particle frequency has been changed. To achieve reddish colors for the particles, I used the map function and used the particle's lifespan as a value.",
+    "background": "While doing this project I used colour theory and was inspired by my old project called click and rotate",
     "github": "https://www.github.com/pixelkind"
   }
 ]
