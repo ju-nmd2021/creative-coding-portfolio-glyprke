@@ -3,20 +3,20 @@
     "file": "experiments/staticArt-a.js",
     "name": "Circle fans",
     "description": "The aim of the assignment was to create static generative art. In order to achieve this, I wanted to use randomness and repetition. I started by creating an ellipse and playing around with it. Then I created lines that were half the size of the ellipse. After that I used rotation and made 8 equal pieces using lines. I wanted to change the color of the balls every time the page was refreshed using the random function. I used a for loop and applied this shape through the page. ",
-    "background": "I came up with this idea while watching a Matthew Epler video about P5.js. In his tutorial, he created an ellipse and created lines and repeated them. It turned out that I wrote the wrong number, but I really like the shape with more lines.Afterwards, I wanted to repeat the shape, and I really like how it turned out. The last thing I wanted to do was to change the color, so I used a random function to pick the colors",
+    "background": "I came up with this idea while watching a tutorial from Matthew Epler about P5.js. In his tutorial, he created an ellipse and created lines and I tried to repeat the same steps. I wrote the wrong number by accident, but I really like the revised shape with more lines. Afterward, I wanted to repeated the shape. The last thing I wanted to do was change the color, so I used a random function to pick the colors.",
     "github": "https://www.github.com/pixelkind"
   }, 
   {
     "file": "experiments/interactiveArt-a.js",
     "name": "Candy shop",
-    "description": "My purpose was to create an interactive art project, and I started by looking for examples that might inspire me. As I wentthrough the examples Garrit showed us during the lecture, I found an example called Grid. In order to understand how it works, I started playing around and changed rectangles to ellipses. In my version, I increased the number of shapes to 100, reduced the gap between shapes to 7 and reduced the size of the shapes to 10. By using math random function, I was able to change the colors randomly in redish colors to make it interactive.",
+    "description": "My purpose was to create an interactive art project, and I started by looking for examples that might inspire me. As I went through the examples Garrit showed us during the lecture, I found an example called Grid. To understand how it works, I started playing around and changing rectangles to ellipses. In my version, I increased the number of shapes to 100, reduced the gap between shapes to 7 and reduced the size of the shapes to 10. By using the math random function, I was able to change the colors randomly to redish colors to make it interactive.",
     "background": "I came up with this idea while looking for examples Garrit provided during the lecture. Instead of rectangles, I used small ellipses to increase the number of shapes in the example. It happened spontaneously since I didn't plan to make something like that.",
     "github": "https://www.github.com/pixelkind"
   },
   {
     "file": "experiments/interactiveArt-b.js",
     "name": "Circle to flower",
-    "description": "As part of this project, I wanted to create an interactive art piece, but I also wanted to learn more about how angular motion works. Therefore, I began watching a video series by Daniel Shiffman called Nature of Code. In his video, he created a rectangle and explained acceleration and velocity. I created a new shape using ellipses and made it look like a flower to understand it on my own. After that, I applied the same steps as in the video and played around with the numbers to make the shape move faster and increase its size. I used if blocks to decrease the size of the shape after one point since it was growing every time.",
+    "description": "As part of this project, I wanted to create an interactive art piece, but I also wanted to learn more about how angular motion works. Therefore, I began watching a video series by Daniel Shiffman called the Nature of Code. In his video, he created a rectangle and explained acceleration and velocity. I created a new shape using ellipses and made it look like a flower to understand it on my own. After that, I applied the same steps as in the video and played around with the numbers to make the shape move faster and increase its size. I used if blocks to decrease the size of the shape after one point since it was growing every time.",
     "background": "My initial idea was to draw a flower shape and rotate it, but I had some questions about how to do so. Upon watching a tutorial by Daniel Shiffman, I got inspired and decided to rotate the flowers using his instructions. Therefore, this artwork represents a combination of two ideas.",
     "github": "https://www.github.com/pixelkind"
   },
@@ -30,7 +30,7 @@
   {
     "file": "experiments/interactiveArt-d.js",
     "name": "Radiation in space",
-    "description": "I used Perlin noise function in order to create an interactive art project for the assignment. Watching Daniel Shiffman's tutorial helped me understand how Perlin Noise gives different values over time. I followed his tutorial at first, but then got creative and created my own version based on his example. The project was completely reworked after I switched from vertex to line, instead of using vertex. I then adjusted the stroke amount and position of the lines.",
+    "description": "I used the Perlin noise function in order to create an interactive art project for the assignment. Watching Daniel Shiffman's tutorial helped me understand how Perlin Noise gives different values over time. I followed his tutorial at first, but then got creative and created my own version based on his example. The project was completely reworked after I switched from vertex to line, instead of using vertex. I then adjusted the stroke amount and position of the lines.",
     "background": "By making small changes to Daniel Shiffman's tutorial, I created this interactive art piece. As part of this project, I wanted to use the gestalt principle of proximity since when objects and elements are arranged together, they appear to have a relationship.",
     "github": "https://www.github.com/pixelkind"
   },
@@ -44,36 +44,36 @@
   {
     "file": "experiments/interactiveArt-f.js",
     "name": "Click and rotate",
-    "description": "The purpose of the project was to create an interactive art piece. In order to accomplish this, I wanted to use particle systems. Using Garrits example as a starting point, I changed the ellipse into rectangles. My next step was to change the colors of the rectangles by using a random function. I increased the frequency of the rectangles at the end.",
+    "description": "The purpose of the project was to create an interactive art piece. In order to accomplish this, I wanted to use particle systems. Using Garrits' example as a starting point, I changed the ellipses into rectangles. My next step was to change the colors of the rectangles by using a random function. I increased the frequency of the rectangles at the end.",
     "background": "My inspiration came from Garrits' particle example, then I applied color theory to it and adjusted it.",
     "github": "https://www.github.com/pixelkind"
   },
   {
     "file": "experiments/sound.js",
     "name": "Talkative lines",
-    "description": "The aim of the project was to add a sound. To understand how it works i used one of the Garrit's example and added a royalty free music to that.",
+    "description": "The aim of the project was to add a sound. To understand how it works, I used one of Garrit's examples and added royalty-free music to that.",
     "background": "I got inspired by Garrits example then I added royalty free mp3 music to the project from from Pixabay.",
     "github": "https://www.github.com/pixelkind"
   },
   {
     "file": "experiments/sound-b.js",
     "name": "Music is not liked by circles",
-    "description": "Based on the project called sound.js I added feedback delay to the sound. My next step was to change the shape to an ellipse. I created more ellipses using the loop function. With the help of the map function, I changed the colours of it.",
-    "background": "I got inspired by Garrits example then I added royalty free mp3 music to the project from from Pixabay.",
+    "description": "I started by making changes to the project called talkative lines. I added feedback delay to the sound. Then changed the shape to an ellipse. Using the loop function, I created more ellipses. Finally, I changed the colours of it using the map function.",
+    "background": "I got inspired by Garrits example then I added royalty free mp3 music to the project from Pixabay.",
     "github": "https://www.github.com/pixelkind"
   },
   {
     "file": "experiments/aesthetic.js",
     "name": "Marks behind circles",
-    "description": "The purpose of this project was to revisit the previous projects from our last three labs. In order to accomplish this, I chose an interactive project that I had previously made. Since I did not play with its colour before, I decided to start with changing it. I accidentally made some mistakes in the code and it ended up looking nice. My next step was to increase the acceleration and decrease the size of it. As a final step, I changed the stroke colour and applied the scale function to make this shape much larger.",
-    "background": "This project is inspired by my old project called Circle to flower. Later, I added color theory to the project in order to make changes to the ellipse and its stroke. On this project, I used the law of similarity from the Gestalt principles.",
+    "description": "The purpose of this project was to revisit the previous projects from our last three labs. In order to accomplish this, I chose an interactive project that I had previously made. Since I had not played with its colour before, I decided to start changing it. I accidentally made some mistakes in the code and it ended up looking nice. My next step was to increase the acceleration and decrease the size of it. As a final step, I changed the stroke colour and applied the scale function to make this shape much larger.",
+    "background": "This project is inspired by my old project called Circle to flower. I used color theory and the law of similarity from the Gestalt principles.",
     "github": "https://www.github.com/pixelkind"
   },
   {
     "file": "experiments/aesthetic-b.js",
     "name": "Bloody particles",
-    "description": "The aim of the project was to revisit our previous project from the last three labs. To achieve this I chose an interactive project that I have already completed. Previously, particles were created when the mouse was clicked, but now I want particles to be created based on the mouse position. For this project, I wanted particles to create ellipses rather than rectangles. The particle frequency has been changed. To achieve reddish colors for the particles, I used the map function and used the particle's lifespan as a value.",
-    "background": "While doing this project I used colour theory and was inspired by my old project called click and rotate",
+    "description": "The aim of the project was to revisit our previous project from the last three labs. To achieve this I chose an interactive project that I have already completed. Previously, particles were created when the mouse was clicked, but now I want particles to be created based on the mouse position. For this project, I wanted particles to create ellipses rather than rectangles. To achieve reddish colors for the particles, I used the map function and the particle's lifespan as a value.",
+    "background": "In this project, I used colour theory and was inspired by my old project called click and rotate.",
     "github": "https://www.github.com/pixelkind"
   }
 ]
